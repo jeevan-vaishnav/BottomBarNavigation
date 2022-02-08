@@ -1,0 +1,35 @@
+ScreenManager:
+    ScreenOne:
+
+<ScreenOne>
+    name:'s1'
+
+    BoxLayout:
+        orientation:'vertical'
+
+        MDToolbar:
+            title: 'Jeevan'
+            md_bg_color:.1,.2,.2,1
+            specific_text_color:1,1,1,1
+
+        MDBottomNavigation:
+            panel_color:.1,.2,.2,1
+            MDBottomNavigationItem:
+                name:'python'
+                text: 'Python'
+                icon:'language-python'
+
+                MDLabel:
+                    text:"This is Python"
+                    halign:'center'
+
+
+            MDBottomNavigationItem:
+                name:'C++'
+                text: 'c++'
+                icon:'language-cpp'
+
+                MDLabel:
+                    text:"This is C++"
+                    halign:'center'
+                
